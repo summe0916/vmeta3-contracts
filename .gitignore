@@ -1,0 +1,40 @@
+src/contract-artifacts.ts
+src/contract-deployed-artifacts.ts
+
+.DS_Store
+node_modules
+results
+temp
+.nyc_output
+coverage.json
+*.tsbuildinfo
+node_modules/
+yarn-error.log
+
+dist
+artifacts
+cache
+
+# vim
+*.sw*
+
+.env
+.env*
+!.env.example
+*.log
+
+.devnet
+
+# Ignore local fuzzing results
+**/testdata/fuzz/
+
+coverage.out
+
+# address
+addresses.txt
+filenames.txt
+*addresses.json
+
+# gas
+gas-report.txt
+gasReporterOutput.json
