@@ -88,7 +88,6 @@ const config: HardhatUserConfig | any = {
         apiKey: {
             mainnet: process.env.ETHERSCAN_API_KEY,
             kovan: process.env.ETHERSCAN_API_KEY,
-	    vmeta3Ethereum: process.env.VMETA3_ETHERSCAN_API_KEY,
         },
     },
     dodoc: {
